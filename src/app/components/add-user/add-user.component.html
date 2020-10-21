@@ -1,0 +1,13 @@
+<form [formGroup]="userForm">
+    <label>id :
+        <input formControlName="id">
+    </label>
+    <label>nom :
+        <input formControlName="nom">
+    </label>
+    <label>prenom :
+        <input formControlName="prenom">
+    </label>
+    <button (click)="addUser(userForm.value)">Ajouter au parent</button>
+</form>
+

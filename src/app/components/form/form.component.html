@@ -1,0 +1,12 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()"> 
+    <label> id :
+        <input type="text" formControlName="id">
+    </label>
+    <label> nom :
+        <input type="text" formControlName="nom">
+    </label>
+    <label> prenom :
+        <input type="text" formControlName="prenom">
+    </label>
+    <button class="btn btn-success" type="submit">Ajouter</button>
+</form>
